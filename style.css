@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #f4fcfb;
+}
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #4f73f7;
+
+}
+header h1{
+	float: left;
+	padding: 20px;
+	margin-left: 15px;
+	color: #f5f909;
+	font-family: 'Lobster', cursive;
+}
+header nav ul{
+	float: right;
+	margin-right: 20px;
+}
+header nav ul li{
+	display: inline-block;
+	padding: 28px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+	
+}
+header nav ul li:hover{
+	
+	background-color: #0528a8;
+	color: red;
+	transition: .6s;
+	cursor: pointer;
+}
+.section_banar{
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url(images/pic.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 764px;
+	padding-top: 50px;
+	
+
+}
+.section_banar .intro{
+	height: 550px;
+	width: 500px;
+	background-color: rgba(0,0,0,.3);
+	margin-left: 750px;
+	border-radius: 14%;
+
+	}
+.section_banar .intro h1 {
+	color: white;
+	font-size: 35px;
+	font-weight: bolder;
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	padding: 10px;
+}
+.section_banar .intro  h3{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.section_banar .intro p{
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	text-align: left;
+	font-size: 18px;
+	color: #f2f2f2;
+	text-align: justify;
+}
+.section_banar .intro button{
+	height: 50px;
+	width: 400px;
+	margin-left: 47px;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	background-color: #37fc47;
+	
+
+}
+.section_banar .intro button:hover{
+	background-color: #fc4a37;
+}
+.section_banar footer{
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 196px;
+	font-size: 40px:
+	font-family: 'Oswald', sans-serif;
+}
